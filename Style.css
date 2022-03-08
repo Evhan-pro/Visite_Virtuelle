@@ -1,0 +1,32 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+}
+
+canvas {
+  display: block;
+  margin: auto;
+}
+
+#p5_loading {
+  position: absolute;
+  left: 0%; 
+  right: 0%;
+  bottom: 0%;
+  top: 0%;
+  background-color: rgb(180, 150, 206);
+}
+
+#chargement {
+  position: absolute;
+  left: 10vw; 
+  right: 10vw;
+  bottom: calc(100vh/3);
+  top: calc(100vh/3);
+  font-size: 50px; 
+  color: rgb(255, 255, 255);
+  text-align: center; 
+  font-family: 'Times New Roman', sans-serif;
+}
